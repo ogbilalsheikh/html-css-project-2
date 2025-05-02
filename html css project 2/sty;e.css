@@ -1,0 +1,274 @@
+.container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://cdn.mos.cms.futurecdn.net/rDJegQJaCyGaYysj2g5XWY.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  max-height: 100vh;
+}
+@media screen and (max-width:1100px ) {
+
+  #imgaa{
+    display: none;
+  }
+ }
+/* 
+html{
+  height: 100vh;
+} */
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  background-color: rgb(38, 31, 31);
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+.mein{
+
+  width: 50%;
+}
+.parents{
+
+  display: flex;
+  justify-content: space-between;
+}
+.mein #sec-oneee{
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  margin-top: 33px;
+  margin-right: 50px;
+  background-color: white;
+  border-radius: 22px;
+  padding-left: 19px;
+  padding-right: 19px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  font-weight: 700;
+  font-size: 15px;
+  position: fixed;
+  right: 0%;
+}
+.mein #sec-oneee:hover {
+  background-color: rgba(255, 255, 255, 0.767);
+  transition: 0.5s;
+}
+.sac-main {
+  text-align: center;
+  margin-top: 10%;
+  color: white;
+}
+.main h1 {
+  margin-top: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 1px;
+  margin-left: 50px;
+  color: red;
+  font-weight: 800;
+  font-size: 39px;
+}
+
+.sac-main #eat-own {
+  font-weight: 800;
+  font-size: 45px;
+}
+h3 {
+  margin-top: 10px;
+}
+h4 {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 400;
+}
+ul{
+
+  text-align: center;
+}
+.new-one{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+input {
+  padding-left: 15px;
+  padding-right: 110px;
+  background-color: rgb(66, 65, 65);
+  color: white;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  border-radius: 100px;
+  font-weight: 700;
+  margin-right: 10px;
+  font-size: 15px;
+  border: rgba(255, 255, 255, 0.654) solid 0.5px;
+}
+input ::placeholder {
+  margin-right: 50px;
+}
+#cotton {
+  background-color: red;
+  padding: 10px 20px 13px 20px;
+  align-items: center;
+  border-radius: 100px;
+  color: white;
+  font-weight: 700;
+  font-size: 25px;
+  text-decoration: none;
+  border: none;
+}
+.container {
+  height: 600px;
+}
+
+.sec-container #head-two {
+  color: rgba(255, 255, 255, 0.533);
+  margin-top: 20px;
+  margin-left: 20px;
+  pointer-events: none;
+}
+.thi-container img {
+  border-radius: 10px;
+  margin-left: 5px;
+  align-items: center;
+}
+.thi-container {
+  text-align: center;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.thi-container img:hover {
+  transition-duration: 0.3s;
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.four-container .sec-a {
+  width: 90px;
+}
+.sec-a a {
+  color: rgba(255, 255, 255, 0.643);
+}
+.four-container .sec-b {
+  width: 122px;
+}
+.sec-b a {
+  color: rgba(255, 255, 255, 0.636);
+}
+.four-container .sec-c {
+  width: 108px;
+}
+.sec-c a {
+  color: rgba(255, 255, 255, 0.655);
+}
+.four-container {
+  height: 170px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgba(11, 11, 11, 0.967);
+}
+.fif-con h4 {
+  color: rgba(255, 255, 255, 0.581);
+  padding-top: 20px;
+  margin-top: 6%;
+  padding-left: 17%;
+  height: 50px;
+  background-color: rgba(11, 11, 11, 0.967);
+}
+.contant {
+  background-color: rgba(11, 11, 11, 0.967);
+}
+#languages {
+  margin-top: 20px;
+  margin-left: 16%;
+  color: white;
+  background-color: black;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  cursor: pointer;
+  padding-bottom: 10px;
+  border: 0.5px solid rgba(255, 255, 255, 0.333);
+}
+.contant #hf {
+  color: rgba(255, 255, 255, 0.579);
+  margin-left: 16%;
+  height: 150px;
+  font-size: 17px;
+  margin-top: 40px;
+}
+svg {
+  color: white;
+}
+.barate {
+  display: contents;
+}
+@media screen and (max-width: 384px) {
+  #head-oneee {
+    font-size: 30px;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .thi-container {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 870px) {
+  .thi-container img {
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width:519px ) {
+ #cotton{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  padding: 10px 60px 10px 60px;
+ }
+}
+@media screen and (max-width:554px ) {
+  /* #head-oneee {
+
+  } */
+ }
+@media screen and (max-width:555px) {
+
+  .sec-main #eat-own {
+    font-weight: 700;
+    font-size: 35px;
+    /* margin-top: 30%; */
+  }
+  .parents{
+
+    margin-bottom: 14%;
+  }
+
+  #head-oneee {
+    display: none;
+  }
+  #imgaa{
+    display: block;
+    height: 60px;
+    width: 60px;
+    margin-left: 20px;
+    margin-top: 7px;
+    z-index: 8;
+  }
+      
+ .mein #sec-oneee {
+  margin-right: 15px;
+  margin-top: 24px;
+  }
+
+  #head-oneee {
+    font-size: 30px;
+  }
+}
